@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <img src="./images/logo.svg" alt="" />
+        <!-- HEADER DESCRIPTION -->
+        <div class="header__description">
+          <h1>We are launching <span class="dark-text">soon!</span></h1>
+          <p>Subscribe and get notified</p>
+        </div>
+        <!-- FORM------->
+        <form id="form" class="form">
+          <div class="form-control">
+            <input
+              type="text"
+              id="input"
+              class="input"
+              placeholder="Your email address..."
+            />
+            <small>Please provide a valid email address</small>
+          </div>
+
+          <input type="submit" value=" Notify Me" id="btn" class="btn" />
+        </form>
+      </header>
+      <!-- HEADER ENDS -->
+
+      <!-- MAIN -->
+      <main class="main">
+        <div class="hero-img">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="hero"
+            style="width: 100%; height: auto"
+          />
+        </div>
+      </main>
+      <!-- MAIN ENDS -->
+
+      <!-- FOOTER ENDS -->
+      <footer class="footer">
+        <ul class="footer__links">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
