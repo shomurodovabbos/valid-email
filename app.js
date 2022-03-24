@@ -12,10 +12,17 @@ form.addEventListener("submit", function (e) {
     showError();
   } else if (!validateEmail(input.value)) {
     showError();
+  } else {
+    showSuccess();
   }
 });
 function showError() {
   error.classList.add("visible");
   input.classList.add("visible");
   input.placeholder = "example@email/com";
+}
+function showSuccess() {
+  error.classList.remove("visible");
+  input.classList.remove("visible");
+  input.placeholder = "";
 }
